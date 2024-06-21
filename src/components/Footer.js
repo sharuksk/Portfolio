@@ -13,7 +13,7 @@ const Footer = () => {
             <h4>Sharu Khan</h4>
             <p>© {year} Sharukhan All rights reserved</p>
             <p className='d-flex'>
-              <a target="_blank" href="https://www.linkedin.com/in/sharukhan-a-9aa71321a/"><i className='fa-brands fa-linkedin mx-3' ></i></a>
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sharukhan-a-9aa71321a/"><i className='fa-brands fa-linkedin mx-3' ></i></a>
             </p>
           </div>
           <div className="second mt-5">

@@ -2,7 +2,6 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import profileData from './profileData';
-import Typewriter from "typewriter-effect";
 import './Profile.css'; // Import the CSS file
 
 const Profile = () => {
