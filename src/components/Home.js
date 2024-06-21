@@ -25,7 +25,7 @@ const Home = () => {
               <Button variant="primary" style={{ letterSpacing: "1px" }} className='btn' href='https://drive.google.com/file/d/1BMk1zbzIJE63iwAqUAgi3a42auTq3dNk/view?usp=sharing' target='_blank'>Resume</Button>
             </div>
           </div>
-          <div className="right_div">
+          <div className="right_div" alt="">
           <img src={Sharuk} /> 
           </div>
         </div>
