@@ -2,7 +2,6 @@ import React from 'react';
 import "./Home.css";
 import Button from 'react-bootstrap/Button';
 import Typewriter from "typewriter-effect";
-import Sharuk from "./Sharuk.jpeg";
 
 const Home = () => {
   return (
@@ -26,7 +25,7 @@ const Home = () => {
             </div>
           </div>
           <div className="right_div" alt="">
-          <img src={Sharuk} /> 
+          <img src="https://firebasestorage.googleapis.com/v0/b/geolocation-53bce.appspot.com/o/logo%2FSharuk.jpeg?alt=media&token=3eabc659-4433-4379-9955-90993ee25fe4" /> 
           </div>
         </div>
       </div>
