@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="second mt-5">
             <h4>Get In Touch</h4>
             <p>Feel free to get connected with me via email or Social Media if you liked my work or if you want to hire me.</p>
-            <p>✉️ sharukajmal2@gmail.com</p>
+            <p>✉️ sharukhanofficialsmail@gmail.com</p>
             <p>📱 +974 71740618</p>
           </div>
           <div className="third mt-5">
