@@ -5,10 +5,11 @@ import Profile from "./components/Profile";
 import Footer from "./components/Footer";
 import Playlist from "./components/Playlist";
 import { Routes, Route } from "react-router-dom";
+import './App.css'
 
 function App() {
   return (
-    <>
+    <body>
       <Header />
       <Routes>
         <Route exact path='/' element={<Home />} />
@@ -16,7 +17,7 @@ function App() {
         <Route exact path='/playlist' element={<Playlist />} />
       </Routes>
       <Footer />
-    </>
+    </body>
   );
 }
 export default App;

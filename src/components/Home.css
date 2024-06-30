@@ -21,7 +21,42 @@
 .home_container .home_innerdiv .right_div img {
     width: 480px
 }
+.paragraph{
+    background-color: rgba(255, 255, 255, 0.197);
+    border-radius: 30px;
+    padding: 20px;
+}
 
+.button23 {
+    width: 160px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: 0.8s;
+    background-size: 280% auto;
+    background-image: linear-gradient(
+        325deg,
+        #3838ff 0%,
+        rgb(156, 231, 253) 55%,
+        #3838ff 90%
+    );
+    border: none;
+    border-radius: 10px;
+    color: hsla(360 100% 100% / 1);
+    box-shadow: 0px 0px 20px rgba(71, 184, 255, 0.5),
+      0px 5px 5px -1px rgba(58, 125, 233, 0.25),
+      inset 4px 4px 8px rgba(175, 230, 255, 0.5),
+      inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+    font-weight: bold;
+}
+.button23:hover {
+    background-position: right top;
+}
+.button23:is(:focus, :focus-visible, :active) {
+    outline: none;
+    box-shadow: 0 0 0 3px hsla(360 100% 100% / 1), 0 0 0 6px #3838ff;
+}
 
 @media (max-width:995px) {
     .home_container .home_innerdiv {
@@ -67,19 +102,11 @@
     }
 }
 
-.btn {
-    transition: all .5s ease;
-    font-family:'Montserrat', sans-serif;
+.btn-resume, .button23 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    line-height: 1;
-    font-size: 17px;
-    padding: 10px;
-    outline:#4b62c4;
-    border-radius: 4px;
-    background-color: #fff;
-    color: black;
-    border-color: #4b62c4;
-    border-radius: 20px;
 }
 .btn:hover {
     color: #ffffff;
