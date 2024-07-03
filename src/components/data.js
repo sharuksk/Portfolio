@@ -1,6 +1,7 @@
 import lkscrap from "./lkscrap.jpg";
 import todo from "./todo.jpg";
 import traffic from "./traffic.jpg";
+import imgtobas64 from "./imgtobase64.png"
 const projectData = [
     {
         id:1,
@@ -23,6 +24,14 @@ const projectData = [
         imgsrc:traffic,
         desc:"Traffic Analytics"
     },
+    {
+        id:4,
+        projectName:"Image to Base64",
+        demo:"https://main--best-image-base64-converter.netlify.app/",
+        imgsrc:imgtobas64,
+        desc:"Image to Base64"
+    },
+    
 ]
 
 export default projectData;
