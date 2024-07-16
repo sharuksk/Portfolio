@@ -4,7 +4,7 @@ import HomeCard from "../components/HomeCard";
 import AboutCard from "../components/AboutCard";
 import SkillsSection from "../components/SkillsSection";
 import ProjectSection from "../components/ProjectSection";
-import ContactSection from "../Components/ContactSection";
+import ContactSection from "../components/ContactSection";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
