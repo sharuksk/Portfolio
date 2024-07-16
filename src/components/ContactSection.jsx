@@ -16,13 +16,13 @@ const ContactSection = () => {
           </h1>
           <div className="flex flex-col gap-2">
             <a
-              href="mailto:coder29yt@gmail.com"
+              href="mailto:sharukhanofficialsmail@gmail.com"
               className="text-white font-mono underline text-lg lg:text-2xl"
             >
               sharukhanofficialsmail@gmail.com
             </a>
             <a
-              href="tel:+919898988989"
+              href="tel:+97471740618"
               className="text-white font-mono underline text-lg lg:text-2xl"
             >
               +974 71740618
