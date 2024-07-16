@@ -1,8 +1,8 @@
-import lkscrap from "./lkscrap.jpg";
-import todo from "./todo.jpg";
-import traffic from "./traffic.jpg";
-import imgtobas64 from "./imgtobase64.png"
-const projectData = [
+import lkscrap from "../assets/lkscrap.jpg";
+import todo from "../assets/todo.jpg";
+import traffic from "../assets/traffic.jpg";
+import imgtobas64 from "../assets/imgtobase64.png"
+const ProjectData = [
     {
         id:1,
         projectName:"LinkedIN scraping",
@@ -34,4 +34,4 @@ const projectData = [
     
 ]
 
-export default projectData;
+export default ProjectData;
