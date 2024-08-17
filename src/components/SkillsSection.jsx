@@ -9,7 +9,8 @@ const SkillsSection = () => {
       <div className="h-[300px] overflow-y-scroll select-none scroll-bar">
         <SkillsCard title={"JavaScript"} value={75} />
         <SkillsCard title={"ReactJS"} value={70} />
-        <SkillsCard title={"Tailwind css"} value={40} />
+        <SkillsCard title={"Tailwind css"} value={60} />
+        <SkillsCard title={"SQL"} value={80} />
         <SkillsCard title={"NodeJs"} value={40} />
         <SkillsCard title={"MongoDB"} value={70} />
       </div>
