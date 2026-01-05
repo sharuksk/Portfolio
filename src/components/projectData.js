@@ -3,14 +3,14 @@ import todo from "../assets/todo.jpg";
 import traffic from "../assets/traffic.jpg";
 import imgtobas64 from "../assets/imgtobase64.png"
 import selfless from "../assets/selfless.jpeg"
-import talentQatarLogo from "../assets/talentQatarLogo.png"
+import talentQatarIcon from "../assets/talentQatarIcon.png"
 
 const ProjectData = [
     {
         id:2,
         projectName:"Talent Qatar",
         demo:"https://talent-qatar.onrender.com/",
-        imgsrc:talentQatarLogo,
+        imgsrc:talentQatarIcon,
         desc:"Interview Hosting Platform"
     },
     {
