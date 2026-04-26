@@ -4,8 +4,16 @@ import traffic from "../assets/traffic.jpg";
 import imgtobas64 from "../assets/imgtobase64.png"
 import selfless from "../assets/selfless.jpeg"
 import talentQatarIcon from "../assets/talentQatarIcon.png"
+import youCommerceIcon from "../assets/youCommerceIcon.png"
 
 const ProjectData = [
+    {
+        id:1,
+        projectName:"You Commerce",
+        demo:"https://ecommerce-fullpack.onrender.com/app/",
+        imgsrc:youCommerceIcon,
+        desc:"Complete ECommerce Website"
+    },
     {
         id:2,
         projectName:"Talent Qatar",
@@ -14,25 +22,18 @@ const ProjectData = [
         desc:"Interview Hosting Platform"
     },
     {
-        id:2,
+        id:3,
         projectName:"Personless Merchandise Store",
         demo:"https://main--merchandise-store.netlify.app/",
         imgsrc:selfless,
         desc:"PersonLess Merchandise Purchasing"
     },
     {
-        id:3,
+        id:4,
         projectName:"LinkedIN scraping",
         demo:"https://github.com/sharuksk/LinkedIN-Scrap",
         imgsrc:lkscrap,
         desc:"LinkedIN scraping tool (backend)"
-    },
-    {
-        id:4,
-        projectName:"To-Do List App",
-        demo:"https://github.com/sharuksk/React-ToDoList",
-        imgsrc:todo,
-        desc:"Restaurent WebApp"
     },
     {
         id:5,
