@@ -29,6 +29,7 @@ const ProjectSection = () => {
           demo={data.demo}
           imgsrc={data.imgsrc}
           desc={data.desc}
+          projectDetails={data.projectDetails}
           />
         ))
 
